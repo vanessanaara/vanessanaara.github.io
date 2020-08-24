@@ -4,62 +4,215 @@
 
     <meta charset="UTF-8">
     <title>Portifólio Web - Vanessa Oliveira</title>
+    <style>
+
+        body {
+            background-color: #779FA1;
+	        color: #EAE0D5;
+            margin-bottom: 40px;
+            margin-left: 40px;
+            margin-right: 50px;
+        }
+
+        img {
+            border-radius: 300px;
+            height : 300px;
+        }
+
+        h1 {
+	        font-family: 'Dosis', sans-serif;
+            font-size: 48px;
+            color: #F79359;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Dosis', sans-serif;
+            color: #F79359;
+            font-size: 28px;
+        }
+
+        h3 {
+            font-family: 'Dosis', sans-serif;
+            color: #F79359;
+            font-size: 20px;
+        }
+        
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        ul {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a {
+            font-family: 'Montserrat', sans-serif;
+            color: #028150;
+            text-decoration: none;
+        }
+
+        .internal-link {
+            text-align: center;
+        }
+
+        .links li {
+            display: inline-block;
+            font-size: 20px;
+            line-height: 50px;
+            padding-left: 30px;
+	        padding-right: 30px;
+            padding-bottom: 10px;
+        }
+
+        .links a {
+            color: #EAE0D5;
+        }
+
+        .button-ilink {
+            background-color: #779fa1;
+            border: 2px solid #F79359;
+            padding: 12px 28px;
+            border-radius: 12px;
+            transition-duration: 0.4s;
+        }
+
+        .button-ilink:hover {
+            background-color: #F79359;
+            color: #000000;
+            opacity: 0.85;
+        }
+
+        .profile-pic {
+            text-align: center;
+        }
+
+        .personal-data {
+            text-align: center;
+        }
+
+        .trybe {
+            font-size: 22px;
+            text-decoration: underline;
+        }
+
+        .abilities-list {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 28px;
+        }
+
+        .dev{
+            font-size: 24px;
+        }
+
+        .team-work {
+            font-size: 22px;
+        }
+
+        .flex {
+            font-size: 20px;
+        }
+
+        .leader {
+            font-size: 18px;
+        }
+
+        .inspire {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 70px;
+        }
+
+        .button-inspire {
+            background-color: #EAE0D5;
+            font-size: 20px;
+            padding: 14px 100px;
+            border-radius: 8px;
+            border: 2px solid #028150;
+            transition-duration: 0.4s;
+            opacity: 0.87;
+        }
+
+        .button-inspire:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            opacity: 1;
+        }
+
+        .copyright {
+            text-align: right;
+        }
+
+    </style>
 
 </head>
 <body>
     
-    <h1>Dados Pessoais</h1>
+    <h1>Portifólio Web</h1>
 
-    <ul>
-        <li><a href="#aboutme">Sobre Mim</a></li>
-        <li><a href="#abilities">Habilidades</a></li>
-    </ul>
+    <div class="internal-link">
+        <ul class="links">
+        <li><a href="#aboutme" class="button-ilink">Sobre Mim</a></li>
+        <li><a href="#abilities" class="button-ilink">Habilidades</a></li>
+        </ul>
+    </div>
 
-    <a href="/images/Vanessa_Oliveira_ Foto.jpg"><img src="/images/Vanessa_Oliveira_ Foto.jpg" alt="Foto de Vanessa Naára" height="300"></a>
+    <div class="profile-pic">
+        <a href="/images/Vanessa_Oliveira_Foto.png"><img src="/images/Vanessa_Oliveira_Foto.png" alt="Foto de Vanessa Naára"></a>
+    </div>
 
-    <h3>Nome Completo:</h3>
-        <p>Vanessa Naára Almeida Oliveira</p>
+    <div class="personal-data">
+        <h2>Dados Pessoais</h2>
+        <hr>
+
+        <h3>Nome Completo:</h3>
+            <p>Vanessa Naára Almeida Oliveira</p>
     
-    <h3>Data de Nascimento:</h3>
-        <p>14/08/1989</p>
+        <h3>Data de Nascimento:</h3>
+            <p>14/08/1989</p>
     
-    <h3>Nacionalidade:</h3>
-        <p>Brasileira</p>
+        <h3>Nacionalidade:</h3>
+            <p>Brasileira</p>
 
-	<h3>Residência:</h3>
-        <p>Salvador/BA - Brasil</p>
+	    <h3>Residência:</h3>
+            <p>Salvador/BA - Brasil</p>
     
-    <h3>Idiomas:</h3>
-        <p>Português - Nativo</p>
-        <p>Inglês - Avançado</p>
-
+        <h3>Idiomas:</h3>
+            <p>Português - Nativo</p>
+            <p>Inglês - Avançado</p>
+    </div>
 
     <h2 id="aboutme">Sobre Mim</h2>
     <hr>
 
         <p>Formada em Direito, comecei a me interessar por programação e desenvolvimento Web no início de 2020. </p>
         <p>Desde então vendo estudando e me aprimorando nas linguagens mais usadas na área de programação Front-End como <em>HTML/CSS</em>, <em>JavaScript</em> e <em>Python</em>.</p>
-        <p>Atualmente, estou realizando o curso <strong>Desenvolvimento de Software/Desenvolvedor Full-Stack</strong> numa das melhores instituições de ensino de tecnologia presentes no Brasil - <a href="https://betrybe.com" target="_blank"><strong>a TRYBE</strong></a>.</p>
+        <p>Atualmente, estou realizando o curso <strong>Desenvolvimento de Software/Desenvolvedor Full-Stack</strong> numa das melhores instituições de ensino de tecnologia presentes no Brasil - a <a href="https://betrybe.com" target="_blank" class="trybe"><strong>TRYBE</strong></a>.</p>
         <p>Estou sempre em busca de aprender e criar coisas novas. No meu tempo livre, gosto de ler livros, jogar vídeo game e praticar corrida.</p>
 
     <h2 id="abilities">Habilidades</h2>
 	<hr>
         
-        <ol>
-            <li>Desenvolvimento Web & Programação:</li>
-                <ul>
+        <ol class="abilities-list">
+            <li class="dev">Desenvolvimento Web & Programação:</li>
+                <ul class="languages">
                     <li>HTML5 - <em>Básico/Intermediário</em></li>
                     <li>CSS3 - <em>Básico/Intermediário</em></li>
                     <li>JavaScript - <em>Básico</em></li>
                 </ul>
-            <li>Trabalho em equipe</li>
-            <li>Flexibilidade</li>
-            <li>Liderança</li>
+            <li class="team-work">Trabalho em equipe</li>
+            <li class="flex">Flexibilidade</li>
+            <li class="leader">Liderança</li>
             <li>Adaptabilidade</li>
 
         </ol>
         
-        <a href="https://blog.betrybe.com/" target="_blank"><h4>Inspire-se</h4></a>
+        <div class="inspire">
+            <a href="https://blog.betrybe.com/" target="_blank" class="button-inspire">Inspire-se</a>
+        </div>
+
+        <p class="copyright">&copy 2020. All rights reserved.</p>
 
 
     </body>
