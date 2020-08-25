@@ -108,6 +108,11 @@ a {
     line-height: 30px;
 }
 
+.odd-number {
+    font-weight: bold;
+    color: #086642;
+}
+
 .social-img {
 	height: 60px;
 }
