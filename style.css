@@ -51,7 +51,7 @@ a {
 
 .links li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
     padding-left: 5px;
     padding-right: 5px;
@@ -79,22 +79,37 @@ a {
 }
 
 .profile-pic {
-    text-align: left;
+    text-align: center;
     float: left;
     width: 25%;
-    padding-top: 100px;
+    padding: 20px;
+    background-color: #3dc38b;
+    border-radius: 50%;
 }
 
 .personal-data {
+    float: right;
     padding-top: 40px;
-    display: block;
-    width: auto;
+    width: 71%;
+}
+
+.residence {
+    padding-left: 50px;
+    vertical-align: top;
+}
+
+.aboutme {
+    clear: both;
 }
 
 .abilities-list {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 30px;
+}
+
+.social-img {
+	height: 60px;
 }
 
 .inspire {

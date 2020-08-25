@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <title>Portifólio Web - Vanessa Oliveira</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap" rel="stylesheet">
     </head>
 
@@ -14,6 +14,7 @@
             <ul class="links">
             <li><a href="#aboutme" class="button-ilink">Sobre Mim</a></li>
             <li><a href="#abilities" class="button-ilink">Habilidades</a></li>
+            <li><a href="#social" class="button-ilink">Redes Sociais</a></li>
             </ul>
         </div>
 
@@ -29,31 +30,42 @@
             <h2>Dados Pessoais</h2>
             <hr>
 
-            <h3>Nome Completo:</h3>
-                <p>Vanessa Naára Almeida Oliveira</p>
-        
-            <h3>Data de Nascimento:</h3>
-                <p>14/08/1989</p>
-            
-            <h3>Nacionalidade:</h3>
-                <p>Brasileira</p>
-       
-            <h3>Residência:</h3>
-                <p>Salvador/BA - Brasil</p>
-        
-            <h3>Idiomas:</h3>
-                <p>Português - Nativo</p>
-                <p>Inglês - Avançado</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h3>Nome Completo:</h3>
+                                <p>Vanessa Naára Almeida Oliveira</p>
+                        
+                            <h3>Data de Nascimento:</h3>
+                                <p>14/08/1989</p>
+                            
+                            <h3>Nacionalidade:</h3>
+                                <p>Brasileira</p>
+                        </td>
+                        <td class="residence">
+                            <h3>Residência:</h3>
+                                <p>Salvador/BA - Brasil</p>
+                        
+                            <h3>Idiomas:</h3>
+                                <p>Português - Nativo</p>
+                                <p>Inglês - Avançado</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>    
         </div>
         
+        <div class="aboutme">
+            <h2 id="aboutme">Sobre Mim</h2>
+            <hr>
 
-        <h2 id="aboutme">Sobre Mim</h2>
-        <hr>
+                <p>Formada em Direito, comecei a me interessar por programação e desenvolvimento Web no início de 2020. </p>
+                <p>Desde então vendo estudando e me aprimorando nas linguagens mais usadas na área de programação Front-End como <em>HTML/CSS</em>, <em>JavaScript</em> e <em>Python</em>.</p>
+                <p>Atualmente, estou realizando o curso <strong>Desenvolvimento de Software/Desenvolvedor Full-Stack</strong> numa das melhores instituições de ensino de tecnologia presentes no Brasil - a <a href="https://betrybe.com" target="_blank"><strong>TRYBE</strong></a>.</p>
+                <p>Estou sempre em busca de aprender e criar coisas novas. No meu tempo livre, gosto de ler livros, jogar vídeo game e praticar corrida.</p>
 
-            <p>Formada em Direito, comecei a me interessar por programação e desenvolvimento Web no início de 2020. </p>
-            <p>Desde então vendo estudando e me aprimorando nas linguagens mais usadas na área de programação Front-End como <em>HTML/CSS</em>, <em>JavaScript</em> e <em>Python</em>.</p>
-            <p>Atualmente, estou realizando o curso <strong>Desenvolvimento de Software/Desenvolvedor Full-Stack</strong> numa das melhores instituições de ensino de tecnologia presentes no Brasil - a <a href="https://betrybe.com" target="_blank"><strong>TRYBE</strong></a>.</p>
-            <p>Estou sempre em busca de aprender e criar coisas novas. No meu tempo livre, gosto de ler livros, jogar vídeo game e praticar corrida.</p>
+        </div>
 
         <h2 id="abilities">Habilidades</h2>
         <hr>
@@ -71,12 +83,18 @@
                 <li>Adaptabilidade</li>
 
             </ol>
+        
+        <h2 id="social">Redes Sociais</h2>
+            
+            <a href="https://github.com/vanessanaara" target="_blank"><img class= "social-img" src="/images/github.png" alt="Link para GitHub"></a>
+            <a href="https://www.linkedin.com/in/vanessanaaraoliveira/" target="_blank"><img class= "social-img" src="/images/linkedin.png" alt="Link para LinkedIn"></a>
             
             <div class="inspire">
                 <a href="https://blog.betrybe.com/" target="_blank" class="button-inspire">Inspire-se</a>
             </div>
-
-            <p class="copyright">&copy 2020. All rights reserved.</p>
+        
+        
+        <p class="copyright">&copy 2020. All rights reserved.</p>
 
 
     </body>
